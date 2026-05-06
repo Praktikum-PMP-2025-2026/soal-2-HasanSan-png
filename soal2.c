@@ -1,3 +1,11 @@
+//** EL2008 Praktikum Pemecahan Masalah dengan Pemrograman 2024/2025
+//* Modul : 04 - DYNAMIC STRUCTURES
+//* Hari dan Tanggal : Selasa, 21 April 2026
+//* Nama (NIM) : Hasan Al Mutawakkil (13224080)
+//* Nama File : TP_1_PMP_4.c
+//* Deskripsi : Merubah order
+
+
 #include <stdio.h>
 #include <stdlib.h>
 
