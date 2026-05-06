@@ -47,11 +47,7 @@ void levelOrderTraversal(Node* root) {
     for (int i = 1; i <= h; i++) {
         printf("LEVEL %d: ", i - 1);
         printGivenLevel(root, i);
-        if (i < h)
-        {
-            printf("\n");
-        }
-        
+        printf("\n");
     }
 
 }
@@ -70,23 +66,17 @@ Node* input(int arr[], int i, int n) {
 int main() {
     int n; 
     scanf("%d", &n);
-
-    if (n == 1)
-    {
-        printf("LEVEL 0: %d", n);
-    }
-    else
-    {
-        int Temp [99];
-
-        for (int i = 0; i < n; i++) {
-            scanf("%d", &Temp[i]);
-        }
-
-    Node* root = input(Temp, 0, n);
     
-    levelOrderTraversal(root);
+    int Temp [99];
+
+    for (int i = 0; i < n; i++) {
+        scanf("%d", &Temp[i]);
     }
+
+ Node* root = input(Temp, 0, n);
+    
+levelOrderTraversal(root);
+    
     
 }
 
