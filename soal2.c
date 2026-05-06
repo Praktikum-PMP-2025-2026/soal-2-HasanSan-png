@@ -47,8 +47,13 @@ void levelOrderTraversal(Node* root) {
     for (int i = 1; i <= h; i++) {
         printf("LEVEL %d: ", i - 1);
         printGivenLevel(root, i);
-        printf("\n");
+        if (i < h)
+        {
+            printf("\n");
+        }
+        
     }
+
 }
 
 Node* input(int arr[], int i, int n) {
