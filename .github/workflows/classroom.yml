@@ -26,9 +26,9 @@ jobs:
           command: ./soal2
           input: "7 1 2 3 4 5 6 7"
           expected-output: |-
-            LEVEL 0: 1
-            LEVEL 1: 2 3
-            LEVEL 2: 4 5 6 7
+            LEVEL 0: 1 
+            LEVEL 1: 2 3 
+            LEVEL 2: 4 5 6 7 
           comparison-method: exact
           timeout: 2
           max-score: 10
@@ -42,7 +42,7 @@ jobs:
           command: ./soal2
           input: "1 9"
           expected-output: |-
-            LEVEL 0: 9
+            LEVEL 0: 9 
           comparison-method: exact
           timeout: 2
           max-score: 10
@@ -56,8 +56,8 @@ jobs:
           command: ./soal2
           input: "2 10 20"
           expected-output: |-
-            LEVEL 0: 10
-            LEVEL 1: 20
+            LEVEL 0: 10 
+            LEVEL 1: 20 
           comparison-method: exact
           timeout: 2
           max-score: 10
@@ -71,8 +71,8 @@ jobs:
           command: ./soal2
           input: "3 5 6 7"
           expected-output: |-
-            LEVEL 0: 5
-            LEVEL 1: 6 7
+            LEVEL 0: 5 
+            LEVEL 1: 6 7 
           comparison-method: exact
           timeout: 2
           max-score: 10
@@ -86,9 +86,9 @@ jobs:
           command: ./soal2
           input: "4 1 2 3 4"
           expected-output: |-
-            LEVEL 0: 1
-            LEVEL 1: 2 3
-            LEVEL 2: 4
+            LEVEL 0: 1 
+            LEVEL 1: 2 3 
+            LEVEL 2: 4 
           comparison-method: exact
           timeout: 2
           max-score: 10
@@ -102,9 +102,9 @@ jobs:
           command: ./soal2
           input: "5 10 20 30 40 50"
           expected-output: |-
-            LEVEL 0: 10
-            LEVEL 1: 20 30
-            LEVEL 2: 40 50
+            LEVEL 0: 10 
+            LEVEL 1: 20 30 
+            LEVEL 2: 40 50 
           comparison-method: exact
           timeout: 2
           max-score: 10
@@ -118,9 +118,9 @@ jobs:
           command: ./soal2
           input: "6 3 6 9 12 15 18"
           expected-output: |-
-            LEVEL 0: 3
-            LEVEL 1: 6 9
-            LEVEL 2: 12 15 18
+            LEVEL 0: 3 
+            LEVEL 1: 6 9 
+            LEVEL 2: 12 15 18 
           comparison-method: exact
           timeout: 2
           max-score: 10
@@ -134,10 +134,10 @@ jobs:
           command: ./soal2
           input: "8 1 2 3 4 5 6 7 8"
           expected-output: |-
-            LEVEL 0: 1
-            LEVEL 1: 2 3
-            LEVEL 2: 4 5 6 7
-            LEVEL 3: 8
+            LEVEL 0: 1 
+            LEVEL 1: 2 3 
+            LEVEL 2: 4 5 6 7 
+            LEVEL 3: 8 
           comparison-method: exact
           timeout: 2
           max-score: 10
@@ -151,9 +151,9 @@ jobs:
           command: ./soal2
           input: "7 0 -1 -2 -3 -4 -5 -6"
           expected-output: |-
-            LEVEL 0: 0
-            LEVEL 1: -1 -2
-            LEVEL 2: -3 -4 -5 -6
+            LEVEL 0: 0 
+            LEVEL 1: -1 -2 
+            LEVEL 2: -3 -4 -5 -6 
           comparison-method: exact
           timeout: 2
           max-score: 10
@@ -167,10 +167,10 @@ jobs:
           command: ./soal2
           input: "9 11 22 33 44 55 66 77 88 99"
           expected-output: |-
-            LEVEL 0: 11
-            LEVEL 1: 22 33
-            LEVEL 2: 44 55 66 77
-            LEVEL 3: 88 99
+            LEVEL 0: 11 
+            LEVEL 1: 22 33 
+            LEVEL 2: 44 55 66 77 
+            LEVEL 3: 88 99 
           comparison-method: exact
           timeout: 2
           max-score: 10
