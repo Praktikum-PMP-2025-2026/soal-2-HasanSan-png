@@ -33,15 +33,12 @@ int height(Node* root) {
     return (leftheight > rightheight ? leftheight : rightheight) + 1;
 }
 
-void printGivenLevel(Node* root, int level, int *first) {
+void printGivenLevel(Node* root, int level) {
     if (root == NULL) return;
-    if (level == 1) {
-        if (!(*first)) printf(" ");
-        printf("%d", root->data);
-        *first = 0;
-    } else {
-        printGivenLevel(root->left, level - 1, first);
-        printGivenLevel(root->right, level - 1, first);
+    if (level == 1) printf("%d ", root->data);
+    else if (level > 1) {
+        printGivenLevel(root->left, level - 1);
+        printGivenLevel(root->right, level - 1);
     }
 }
 
