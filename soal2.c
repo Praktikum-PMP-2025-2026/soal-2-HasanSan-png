@@ -1,6 +1,7 @@
 //** EL2008 Praktikum Pemecahan Masalah dengan Pemrograman 2025/2026
 //* Modul : 04 - DYNAMIC STRUCTURES
 //* Nama (NIM) : Hasan Al Mutawakkil (13224080)
+//* Deskripsi : Penyebaran Sinyal
 
 #include <stdio.h>
 #include <stdlib.h>
